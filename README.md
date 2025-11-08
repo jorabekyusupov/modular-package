@@ -13,7 +13,7 @@ While not required, it's highly recommended that you customize your default name
 for modules. By default, this is set to `Modules\`, which works just fine but makes it
 harder to extract your module to a separate package should you ever choose to.
 
-We recommend configuring a organization namespace (we use `"InterNACHI"`, for example).
+We recommend configuring a organization namespace.
 To do this, you'll need to publish the package config:
 
 ```shell script
@@ -186,5 +186,4 @@ our own module system rather than using `laravel-modules` comes down to two deci
 If you are building a CMS that needs to support 3rd-party modules that can be dynamically
 enabled and disabled, Laravel Modules will be a better fit.
 
-On the other hand, if you're mostly interested in modules for organization, and want to
-stick closely to Laravel conventions, we’d highly recommend giving InterNACHI/Modular a try!
+
